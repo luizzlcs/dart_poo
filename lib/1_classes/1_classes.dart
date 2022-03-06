@@ -7,7 +7,7 @@ void main() {
   camisetaNike.marca = 'Nike';
 
   print('''
-    Camiseta:zxvsd
+    Camiseta:
       Tamanho: ${camisetaNike.tamanho}
       Cor: ${camisetaNike.cor}
       Marca: ${camisetaNike.marca}

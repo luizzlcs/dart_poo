@@ -11,7 +11,6 @@
 
 - Fundamentos: Abstração e Encapsulamento;
 - Classes: Atributos e comportamentos, Instanciado uma classe;
-- 
 
 ### Autor
 
