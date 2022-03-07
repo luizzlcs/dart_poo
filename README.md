@@ -11,6 +11,8 @@
 
 - Fundamentos: Abstração e Encapsulamento;
 - Classes: Atributos e comportamentos, Instanciado uma classe;
+- Constutores: Construtores nomeados e factory;
+- Null Safaty: '!' Force non null, e 'late';
 
 ### Autor
 
