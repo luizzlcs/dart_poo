@@ -1,4 +1,4 @@
-import 'package:dart_poo/camiseta.dart';
+import 'package:dart_poo/1_classes/camiseta.dart';
 
 void main() {
   Camiseta camisetaNike = new Camiseta();
@@ -6,6 +6,9 @@ void main() {
   camisetaNike.cor = 'Preta';
   camisetaNike.marca = 'Nike';
 
+  print(Camiseta.nome); // Imprimindo atributo de classe.
+  print(Camiseta.recuperarNome());
+  print('-'*5);
   print('''
     Camiseta:
       Tamanho: ${camisetaNike.tamanho}

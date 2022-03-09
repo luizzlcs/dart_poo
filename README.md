@@ -11,8 +11,11 @@
 
 - Fundamentos: Abstração e Encapsulamento;
 - Classes: Atributos e comportamentos, Instanciado uma classe;
+- Modificadores de tipos: Static - Atributos de classe e Métodos de classe;
+- Modificadores de acesso: Public e Private, get e set;
 - Constutores: Construtores nomeados e factory;
 - Null Safaty: '!' Force non null, e 'late';
+- Herança.
 
 ### Autor
 
