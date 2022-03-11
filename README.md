@@ -18,7 +18,8 @@
 - Herança.
 - Associação: Composição e agregação;
 - Polimofismo;
-- Interfaces.
+- Interfaces;
+- Mixins;
 
 ### Autor
 
