@@ -17,7 +17,8 @@
 - Null Safaty: '!' Force non null, e 'late';
 - Herança.
 - Associação: Composição e agregação;
-- Polimofismo.
+- Polimofismo;
+- Interfaces.
 
 ### Autor
 
