@@ -23,7 +23,7 @@
 - Cascade noatation;
 - Callable class;
 - Operator Metods;
--Assigmento operators.
+- Assigmento operators.
 
 ### Autor
 
