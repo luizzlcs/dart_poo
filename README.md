@@ -20,6 +20,10 @@
 - Polimofismo;
 - Interfaces;
 - Mixins;
+- Cascade noatation;
+- Callable class;
+- Operator Metods;
+-Assigmento operators.
 
 ### Autor
 
