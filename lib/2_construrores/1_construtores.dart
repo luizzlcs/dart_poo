@@ -1,4 +1,4 @@
-import 'package:dart_poo/1_construrores/pessoa.dart';
+import 'package:dart_poo/2_construrores/pessoa.dart';
 
 void main() {
   Pessoa dados = Pessoa(nome: 'Luiz Carlos', idade: 38, sexo: 'M');

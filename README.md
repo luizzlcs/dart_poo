@@ -23,7 +23,13 @@
 - Cascade noatation;
 - Callable class;
 - Operator Metods;
-- Assigmento operators.
+- Assigmento operators;
+- Aplicando hasCode e equals;
+- Aplicando regra de negócio com asserts em atribuos de classes;
+- Otimizando a memória do projeto com o uso do const.
+- Extensions - Atribuindo funções;
+- Metadatas;
+
 
 ### Autor
 
