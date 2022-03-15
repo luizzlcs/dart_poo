@@ -29,6 +29,7 @@
 - Otimizando a memória do projeto com o uso do const.
 - Extensions - Atribuindo funções;
 - Metadatas;
+- O uso de Gettrs e Setters
 
 
 ### Autor

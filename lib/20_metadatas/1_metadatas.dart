@@ -1,31 +1,39 @@
 import 'dart:mirrors';
-
-import 'package:dart_poo/20_metadatas/fazer.dart';
-import 'package:dart_poo/20_metadatas/pssoa.dart';
+import 'fazer.dart';
+import 'pessoa.dart';
 
 void main() {
-  var p1 = Pessoa();
-
+  final p1 = Pessoa();
   var instanceMirror = reflect(p1);
   var classMirror = instanceMirror.type;
 
   classMirror.metadata.forEach((annotation) {
-    var instaceAnotation = annotation.reflectee;
-    if (instaceAnotation is Fazer) {
-      print('Quem: ${instaceAnotation.quem}');
-      print('O que: ${instaceAnotation.oque}');
+    var instanceAnnotation = annotation.reflectee;
+    if (instanceAnnotation is Fazer) {
+      print("Quem: ${instanceAnnotation.quem}");
+      print("Oque: ${instanceAnnotation.oque}");
     }
   });
 
   classMirror.declarations.values.forEach((declarationMirror) {
-    if (DeclarationMirror is VariableMirror) {
+    if (declarationMirror is VariableMirror) {
       declarationMirror.metadata.forEach((annotation) {
-        var instaceAnotation = annotation.reflectee;
-        if (instaceAnotation is Fazer) {
-          print('Quem: ${instaceAnotation.quem}');
-          print('O que: ${instaceAnotation.oque}');
+        var instanceAnnotation = annotation.reflectee;
+        if (instanceAnnotation is Fazer) {
+          print('Variáveis --------------');
+          print("Quem: ${instanceAnnotation.quem}");
+          print("Oque: ${instanceAnnotation.oque}");
         }
       });
-    } else if (DeclarationMirror is MethodMirror) {}
+    } else if (declarationMirror is MethodMirror) {
+      declarationMirror.metadata.forEach((annotation) {
+        var instanceAnnotation = annotation.reflectee;
+        if (instanceAnnotation is Fazer) {
+          print('Métodos --------------');
+          print("Quem: ${instanceAnnotation.quem}");
+          print("Oque: ${instanceAnnotation.oque}");
+        }
+      });
+    }
   });
 }
